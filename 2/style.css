@@ -1,0 +1,74 @@
+body {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure1 {
+  width: 400px;
+  height: 400px;
+  border: solid;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border: solid;
+  border-radius: 25px;
+  position: absolute;
+}
+
+.one {
+  right: -25px;
+  top: -25px;
+}
+.two {
+  right: -25px;
+  bottom: -25px;
+}
+
+.three {
+  left: -25px;
+  bottom: -25px;
+}
+.four {
+  left: -25px;
+  top: -25px;
+}
+
+.figure2 {
+  width: 200px;
+  height: 200px;
+  border: solid;
+  border-radius: 150px;
+  position: relative;
+}
+
+.cube {
+  width: 50px;
+  height: 50px;
+  border: solid;
+  position: absolute;
+}
+.kone {
+  right: 10px;
+  top: 0px;
+}
+.ktwo {
+  right: 10px;
+  bottom: 0px;
+}
+
+.kthree {
+  left: 10px;
+  bottom: 0px;
+}
+.kfour {
+  left: 10px;
+  top: 0px;
+}

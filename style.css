@@ -1,0 +1,61 @@
+.cube {
+  width: 40px;
+  height: 40px;
+  border: solid;
+  border-radius: 5px;
+  margin: 2px;
+  display: inline-block;
+}
+
+.leftCube1 {
+  margin-left: 56px;
+}
+.figure1 .cube {
+  background-color: greenyellow;
+}
+
+.figure2 {
+  margin-left: 53px;
+  margin-bottom: 47px;
+  margin-top: 114px;
+}
+.figure2 .cube {
+  background-color: grey;
+}
+
+.figure3 .cube {
+  background-color: hotpink;
+}
+
+.figure4 .cube {
+  background-color: red;
+}
+
+.figure5 {
+  margin-left: 53px;
+}
+.figure5 .cube {
+  background-color: slateblue;
+}
+
+.field {
+  width: 428px;
+  height: 428px;
+  border: solid red;
+  margin: 3px;
+}
+.field2 {
+  display: inline-block;
+  margin: 3px;
+  border: solid green;
+}
+.field3 {
+  display: inline-block;
+  border: solid black;
+}
+
+.column1,
+.figure3,
+.column3 {
+  display: inline-block;
+}
